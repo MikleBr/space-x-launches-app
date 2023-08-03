@@ -4,7 +4,7 @@ import './App.css';
 import { spaceXApi } from './api/space-x/spaceXApi';
 import { GetLaunchesResponse } from './api/space-x/types';
 import { LaunchCard } from './components/LaunchCard';
-import { Pager } from './components/pager';
+import { Pager } from './components/Pager';
 
 function App() {
   const url = new URL(window.location.href);
